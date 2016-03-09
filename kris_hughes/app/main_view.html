@@ -1,0 +1,20 @@
+<section>
+  <head>
+		<h1>Picture Sharer!</h1>
+	</head>
+	<section data-ng-controller="ImageController" data-ng-init="getAllImages()">
+    <ul>
+      <li data-ng-repeat="image in images">
+      	Image:
+      	<img data-ng-src="{{image.url}}" style="width:304px;height:228px;">Description: {{image.description}}
+      </li>
+    </ul>
+	<section>
+		<h3>Add An Image</h3>
+    <form data-ng-submit="save(image)">
+      <input type="text" placeholder="URL" data-ng-model="image.url">
+      <input type="text" placeholder="Description" data-ng-model="image.description">
+      <button class="submitButton" type="submit">Save</button>
+    </form>
+	</section>
+</section>

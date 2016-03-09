@@ -1,0 +1,58 @@
+{
+  "name": "final_test",
+  "version": "1.0.0",
+  "description": "Final Individual Test Image Gallery",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "angular": "1.5.0",
+    "body-parser": "1.15.0",
+    "express": "4.13.4",
+    "mongoose": "4.4.6"
+  },
+  "devDependencies": {
+    "angular": "1.5.0",
+    "angular-mocks": "1.5.0",
+    "angular-route": "1.5.0",
+    "babel": "6.5.2",
+    "babel-core": "6.7.0",
+    "babel-loader": "6.2.4",
+    "babel-preset-es2015": "6.6.0",
+    "babel-preset-react": "6.5.0",
+    "chai": "3.5.0",
+    "chai-http": "2.0.1",
+    "eslint": "2.3.0",
+    "gulp": "3.9.1",
+    "gulp-eslint": "2.0.0",
+    "gulp-mocha": "2.2.0",
+    "gulp-sass": "2.2.0",
+    "gulp-sourcemaps": "1.6.0",
+    "html-loader": "0.4.3",
+    "jasmine": "2.4.1",
+    "jasmine-core": "2.4.1",
+    "karma": "0.13.21",
+    "karma-chrome-launcher": "0.2.2",
+    "karma-firefox-launcher": "0.1.7",
+    "karma-jasmine": "0.3.7",
+    "lodash": "4.6.1",
+    "mocha": "2.4.5",
+    "webpack": "1.12.14",
+    "webpack-stream": "3.1.0"
+  },
+  "scripts": {
+    "test": "gulp",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugheskr/individual_code_test.git"
+  },
+  "author": "KrisHughes <kristopher_hughes@yahoo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hugheskr/individual_code_test/issues"
+  },
+  "homepage": "https://github.com/hugheskr/individual_code_test#readme"
+}
